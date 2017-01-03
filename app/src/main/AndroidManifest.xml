@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="me.intan.mpm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".main.AppController"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+
+        <activity
+            android:name=".main.Activity_Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity
+            android:name=".main.Activity_Register"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".main.Activity_Main"
+            android:label="Menu Utama"
+            android:launchMode="singleTop" />
+
+
+        <activity
+            android:name=".info.UniversitasActivity"
+            android:label="Informasi Universitas"
+            android:parentActivityName=".main.Activity_Main"
+           >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".main.Activity_Main" />
+    </activity>
+
+        <activity
+            android:name=".info.AkademikActivity"
+            android:label="Informasi Akademik"
+            android:parentActivityName=".main.Activity_Main"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Activity_Main" />
+        </activity>
+
+
+        <activity
+            android:name=".info.ExtrakurikulerActivity"
+            android:label="Informasi Extrakurikuler"
+            android:parentActivityName=".main.Activity_Main"
+            >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".main.Activity_Main" />
+        </activity>
+
+        <!--  android:screenOrientation="landscape" -->
+        <activity
+            android:name=".jadwal.MainJadwalActivity"
+            android:label="Jadwal Kuliah"
+
+            android:parentActivityName=".main.Activity_Main"
+            >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".main.Activity_Main" />
+    </activity>
+
+
+        <activity
+            android:name=".khs.MainKhsActivity"
+            android:label="Nilai KHS Mahasiswa"
+            android:parentActivityName=".main.Activity_Main"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Activity_Main" />
+        </activity>
+
+        <activity
+            android:name=".transkrip.MainTransActivity"
+            android:label="Transkrip Nilai Mahasiswa"
+            android:parentActivityName=".main.Activity_Main"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Activity_Main" />
+        </activity>
+
+        <activity
+            android:name=".absen.MainAbsenActivity"
+            android:label="Absensi Mahasiswa"
+            android:parentActivityName=".main.Activity_Main"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Activity_Main" />
+        </activity>
+
+        <activity
+            android:name=".info.DetailUniversitas"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".info.Activity_Universitas_Intro"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".info.Activity_Akademik_Intro"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".info.Activity_Extrakurikuler_Intro"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+
+        <activity
+            android:name=".info.DetailAkademik"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".info.DetailExtrakurikuler"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+        <activity android:name=".splash.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

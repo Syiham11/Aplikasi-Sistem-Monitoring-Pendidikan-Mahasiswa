@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1sp"
+                    android:textColor="@color/lbl_name"
+                    android:textSize="12sp" />
+
+
+                <Button
+                    android:id="@+id/btnUniversitas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_universitas"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnAkademik"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_akademik"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnExtrakurikuler"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_extrakurikuler"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnJadwal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_jadwal"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnNilai"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_nilai"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnTraskrip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_trans"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnAbsen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_absen"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnPetunjuk"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:background="@color/bg_login"
+                    android:text="@string/btn_petunjuk"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/btn_logut_bg"
+                    android:text="@string/btn_logout"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextSemester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/semester"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/editTextUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/unit"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/editTextNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nim"
+            android:inputType="text" />
+        <Button
+
+            android:id="@+id/buttonGet"
+            android:text="@string/get"
+            android:background="@color/bg_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCell"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/no"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/kode"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/mata_kuliah"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/sks"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/nilaihuruf"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/nilaibobot"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/nbxk"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/ket"
+            android:textColor="#ffffff"
+            android:layout_gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:divider="@null" >
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="Indek Prestasi Smester"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:text=":"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/ips"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="Indek Prestasi Komulatif"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:text=":"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/ipk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="Maksimum SKS yang dapat diambil"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:text=":"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/msks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="SKS yang telah diambil"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:text=":"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/jsks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

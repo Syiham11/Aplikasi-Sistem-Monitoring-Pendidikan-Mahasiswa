@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/relativeLayout1" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+
+
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvNo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="0.8"
+        android:background="@drawable/cell_shape"
+      >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/tvKode"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape"
+     >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/tvMakul"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:padding="5sp"
+        android:background="@drawable/cell_shape"
+      >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/tvSks"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape"
+    >
+    </TextView>
+    <TextView
+        android:id="@+id/tvNilai"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape">
+    </TextView>
+    <TextView
+        android:id="@+id/tvNilaiBobot"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape">
+    </TextView>
+    <TextView
+        android:id="@+id/tvnbxk"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape">
+    </TextView>
+    <TextView
+        android:id="@+id/tvKet"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape">
+    </TextView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TA Intan</string>
+    <string name="hint_email">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_nim">NIM Mahasiswa</string>
+    <string name="hint_name">Nama Orang Tua / Wali</string>
+    <string name="btn_login">MASUK</string>
+    <string name="btn_register">DAFTAR</string>
+    <string name="btn_link_to_register">Daftar User</string>
+    <string name="btn_link_to_login">Masuk User</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_universitas">INFORMASI UNIVERSITAS</string>
+    <string name="btn_akademik">INFORMASI AKADEMIK</string>
+    <string name="btn_extrakurikuler">INFORMASI EXTRAKURIKULER</string>
+    <string name="btn_jadwal">JADWAL KULIAH</string>
+    <string name="btn_nilai">NILAI KHS</string>
+    <string name="btn_trans">TRANSKRIP NILAI</string>
+    <string name="btn_absen">ABSENSI MAHASISWA</string>
+    <string name="btn_petunjuk">PETUNJUK APLIKASI</string>
+    <string name="action_settings">Setting</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="get">Get</string>
+    <string name="semester">Semester</string>
+    <string name="unit">Unit</string>
+    <string name="no">NO</string>
+    <string name="kode">KODE</string>
+    <string name="mata_kuliah">MATA KULIAH</string>
+    <string name="sks">SKS</string>
+    <string name="nilai">NILAI KHS</string>
+    <string name="hari">HARI</string>
+    <string name="tanggal">TANGGAL</string>
+    <string name="jam">JAM</string>
+    <string name="ruang">RUANG</string>
+    <string name="dosen">DOSEN</string>
+    <string name="keterangan">KETERANGAN</string>
+    <string name="nama">Nama</string>
+    <string name="nim">Nim</string>
+    <string name="nilaibobot">NILAI BOBOT</string>
+    <string name="nbxk">NBxK</string>
+    <string name="ket">KET</string>
+    <string name="nilaihuruf">NILAI HURUF</string>
+</resources>

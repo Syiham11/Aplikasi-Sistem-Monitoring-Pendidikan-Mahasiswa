@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/editTextNama"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/nama"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:height="12sp" />
+        <EditText
+            android:id="@+id/editTextNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/nim"
+            android:inputType="text" />
+        <Button
+            android:id="@+id/buttonGet"
+            android:text="@string/get"
+            android:background="@color/bg_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCell" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/no"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/hari"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tanggal"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/mata_kuliah"
+            android:textColor="#ffffff" >
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/keterangan"
+            android:textColor="#ffffff" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+    </ListView>
+
+</LinearLayout>
